@@ -4103,6 +4103,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 146.05 90.17)
+		(size 21.59 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a334d8b1-4164-42a4-ac5a-cc0f25393f05")
+		(property "Sheetname" "NFC block"
+			(at 146.05 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nfc-block.kicad_sch"
+			(at 146.05 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "tanmantsu-zero"
+				(path "/5efeb768-8e76-40e9-a81b-6b0e0976f23b"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

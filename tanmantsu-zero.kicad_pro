@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.3,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -178,7 +178,14 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.127,
+        0.2,
+        0.25,
+        0.35,
+        0.5,
+        0.8,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -210,6 +217,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -603,6 +618,10 @@
     [
       "30714f1d-8e9b-458e-a1b3-3683e39ed51d",
       "Antenna balance"
+    ],
+    [
+      "a334d8b1-4164-42a4-ac5a-cc0f25393f05",
+      "NFC block"
     ]
   ],
   "text_variables": {}
