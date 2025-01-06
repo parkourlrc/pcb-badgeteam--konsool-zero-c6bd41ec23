@@ -1775,7 +1775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47c461eb-f828-4789-8e57-4fc1c854b481")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 64.77 151.13 0)
 			(effects
 				(font
@@ -1825,7 +1825,7 @@
 		(instances
 			(project ""
 				(path "/5efeb768-8e76-40e9-a81b-6b0e0976f23b/99c9614a-9fb6-4452-a56a-9a8fb66b6f8b"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -2224,7 +2224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86e117e9-6709-4e76-82e3-e012dbc5358a")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 64.77 181.61 0)
 			(effects
 				(font
@@ -2274,7 +2274,7 @@
 		(instances
 			(project ""
 				(path "/5efeb768-8e76-40e9-a81b-6b0e0976f23b/99c9614a-9fb6-4452-a56a-9a8fb66b6f8b"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -2454,7 +2454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0be16c8-8a4e-4294-949d-3f88ff5e8d80")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 97.79 41.91 0)
 			(effects
 				(font
@@ -2504,7 +2504,7 @@
 		(instances
 			(project "tanmantsu-zero"
 				(path "/5efeb768-8e76-40e9-a81b-6b0e0976f23b/99c9614a-9fb6-4452-a56a-9a8fb66b6f8b"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -2821,7 +2821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d706a41a-cdb5-48c2-80fb-34781224bcdc")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 97.79 110.49 0)
 			(effects
 				(font
@@ -2871,7 +2871,7 @@
 		(instances
 			(project "tanmantsu-zero"
 				(path "/5efeb768-8e76-40e9-a81b-6b0e0976f23b/99c9614a-9fb6-4452-a56a-9a8fb66b6f8b"
-					(reference "#PWR053")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -2966,7 +2966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9899c83-9ab7-4fc3-b255-7e41735ada8a")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR055"
 			(at 133.35 106.68 0)
 			(effects
 				(font
@@ -3016,7 +3016,7 @@
 		(instances
 			(project "tanmantsu-zero"
 				(path "/5efeb768-8e76-40e9-a81b-6b0e0976f23b/99c9614a-9fb6-4452-a56a-9a8fb66b6f8b"
-					(reference "#PWR054")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)

@@ -1122,6 +1122,98 @@
 		)
 		(uuid "ed675e2a-ffd1-4648-bf40-6b4161f8871b")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 124.46 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30b3537e-d719-4b2d-a6c0-53942a87fadd")
+		(property "Netclass" "RF 50 Ohm"
+			(at 125.1585 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 92.71 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "360546a1-3165-4d75-90bf-2219536d6f03")
+		(property "Netclass" "RF 100 Ohm diff"
+			(at 93.4085 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 194.31 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55f615d7-aa3d-4a58-988a-02618d46d500")
+		(property "Netclass" "RF 50 Ohm"
+			(at 195.0085 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 157.48 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a7aa090-d1c0-4519-97d0-589386a116f6")
+		(property "Netclass" "RF 50 Ohm"
+			(at 158.1785 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "lcsc:LQG15HS6N8J02D")
 		(at 175.26 77.47 0)
@@ -1279,7 +1371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3baa973d-4278-45be-a530-e04cab2f4592")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR020"
 			(at 114.3 52.07 0)
 			(effects
 				(font
@@ -1329,7 +1421,7 @@
 		(instances
 			(project ""
 				(path "/5efeb768-8e76-40e9-a81b-6b0e0976f23b/6d0aac72-457d-4533-b045-07c1eaec4b94/b321f793-113c-4e3c-b3a1-96a36607e378"
-					(reference "#PWR03")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -1825,7 +1917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d78b8d94-744e-4157-813a-1ff5cb0f3f03")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 223.52 72.39 90)
 			(effects
 				(font
@@ -1886,7 +1978,7 @@
 		(instances
 			(project ""
 				(path "/5efeb768-8e76-40e9-a81b-6b0e0976f23b/6d0aac72-457d-4533-b045-07c1eaec4b94/b321f793-113c-4e3c-b3a1-96a36607e378"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1902,7 +1994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f11b7b84-fb6e-436a-ae74-4fb582a51231")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR021"
 			(at 161.29 102.87 0)
 			(effects
 				(font
@@ -1952,7 +2044,7 @@
 		(instances
 			(project ""
 				(path "/5efeb768-8e76-40e9-a81b-6b0e0976f23b/6d0aac72-457d-4533-b045-07c1eaec4b94/b321f793-113c-4e3c-b3a1-96a36607e378"
-					(reference "#PWR04")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -1968,7 +2060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffea7289-ed96-4d99-87f3-f214403ff0ad")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR022"
 			(at 200.66 102.87 0)
 			(effects
 				(font
@@ -2018,7 +2110,7 @@
 		(instances
 			(project "tanmantsu-zero"
 				(path "/5efeb768-8e76-40e9-a81b-6b0e0976f23b/6d0aac72-457d-4533-b045-07c1eaec4b94/b321f793-113c-4e3c-b3a1-96a36607e378"
-					(reference "#PWR05")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

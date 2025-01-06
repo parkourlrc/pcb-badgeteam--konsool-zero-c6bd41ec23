@@ -3,10 +3,10 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "One-layer coil")
-	(tags "coil")
+	(descr "Four-layer coil")
+	(tags "coil;RFID;antenna")
 	(property "Reference" "REF**"
-		(at -2 0.2 90)
+		(at 0.2 0.1 90)
 		(layer "F.SilkS")
 		(uuid "463e9949-67c9-42e5-ba3f-9bcad2c2084b")
 		(effects
@@ -16,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "Coil"
-		(at 2 -1.3 90)
+	(property "Value" "400uH"
+		(at 21.2 -1 90)
 		(layer "F.Fab")
 		(uuid "1c58b4a6-12c0-471e-a624-f9b8a8f20eb2")
 		(effects
@@ -51,8 +51,8 @@
 			)
 		)
 	)
-	(property "Description" ""
-		(at 0 0.2 90)
+	(property "Description" "400nH RFID antenna coil"
+		(at -21.3 -0.7 90)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "f479188b-4caa-4555-a831-d6c86eadd3ac")
@@ -64,7 +64,7 @@
 		)
 	)
 	(attr through_hole)
-	(net_tie_pad_groups "1,2")
+	(net_tie_pad_groups "1,2,3,4,5")
 	(fp_line
 		(start -20 -20)
 		(end -20 20)
@@ -3086,7 +3086,7 @@
 		(uuid "95269dab-86d9-4bb1-9e86-7eff3371f90c")
 	)
 	(fp_line
-		(start -20.4 -20)
+		(start -20.6 -20)
 		(end 20.1 -19.972973)
 		(stroke
 			(width 0.127)
@@ -6107,7 +6107,7 @@
 	)
 	(fp_line
 		(start -20 -20)
-		(end -20.4 -20)
+		(end -20.6 -20)
 		(stroke
 			(width 0.127)
 			(type default)
@@ -12176,32 +12176,8 @@
 		(uuid "7ffefc65-bba1-49e0-a9cb-303c1591ad99")
 	)
 	(pad "1" thru_hole circle
-		(at -20.4 -20)
-		(size 0.45 0.45)
-		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "d82b87ca-2085-4ee9-8bdb-6f7dc837e86f")
-	)
-	(pad "1" thru_hole circle
-		(at -1 1.3)
-		(size 0.45 0.45)
-		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "5be77da2-d87e-42c1-9af9-9bee2a267b38")
-	)
-	(pad "1" thru_hole circle
-		(at 0 -1.3)
-		(size 0.45 0.45)
-		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "901a29ec-37f5-48d2-868f-e1b8141b1220")
-	)
-	(pad "1" thru_hole circle
 		(at 21 -20)
-		(size 0.45 0.45)
+		(size 0.5 0.5)
 		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -12209,10 +12185,34 @@
 	)
 	(pad "2" thru_hole circle
 		(at 21 -19)
-		(size 0.45 0.45)
+		(size 0.5 0.5)
 		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "4cec1e02-062a-4b0a-893b-5ce1830b15b7")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -1.3)
+		(size 0.5 0.5)
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "901a29ec-37f5-48d2-868f-e1b8141b1220")
+	)
+	(pad "4" thru_hole circle
+		(at -1 1.3)
+		(size 0.5 0.5)
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5be77da2-d87e-42c1-9af9-9bee2a267b38")
+	)
+	(pad "5" thru_hole circle
+		(at -20.6 -20)
+		(size 0.5 0.5)
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d82b87ca-2085-4ee9-8bdb-6f7dc837e86f")
 	)
 )
